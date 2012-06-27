@@ -4,6 +4,7 @@
 // Author:    Richard Klancer <rpk@pobox.com>
 // ==========================================================================
 /*globals Smartgraphs */
+my changes 
 
 Smartgraphs.main = function main() {
 
@@ -60,6 +61,12 @@ Smartgraphs.sendGaEvent = function(key,value) {
   if (Smartgraphs.sendGAEvent_last_hash_key === hash_key) { 
     return;
   }
+
+  /*{
+
+  New changes to file
+  
+  }*/
   Smartgraphs.sendGAEvent_last_hash_key = hash_key;
   if (!!_gaq) {
     _gaq.push(["_trackEvent", "SmartGraphs Activities", key, value]);
