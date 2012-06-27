@@ -5,6 +5,8 @@
 // ==========================================================================
 /*globals Smartgraphs */
 
+New changes from other location
+
 Smartgraphs.main = function main() {
 
   Smartgraphs.dataSource = SC.CascadeDataSource.create({
